@@ -1,8 +1,59 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 💻 프로젝트 스택 및 라이브러리
+html css javascript reaxt vite yarn
 
-Currently, two official plugins are available:
+### 📁 프로젝트 폴더 구조
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+Zogakzip_FE
+├── README.md
+├── node_modules
+├── package.json
+├── yarn.lock
+├── vite.config.js
+├── index.html
+├── public
+│   ├── img
+│   ├── favicon
+│   └── fonts
+└── src
+    ├── main.jsx
+    ├── index.css
+    ├── App.jsx
+    ├── App.css
+    ├── components
+    ├── pages
+    └── lib
+```
+
+
+<br>
+
+###  컨벤션
+
+**문장 규칙** 
+
+- 한 문장에는 하나의 코드만!
+
+**주석**
+
+- 웬만하면 한 줄 주석
+- 과도한 설명은 자제하기
+
+**Framework**
+
+**`JavaScripts`**
+
+**`react`**
+
+**패키지 매니저**
+
+**`yarn create vite`**
+
+**Styling** 
+
+**`styled-components`**
+
+**Code Styling**
+
+- camelCase
