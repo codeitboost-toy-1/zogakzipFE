@@ -1,0 +1,55 @@
+.group-list {
+  display: grid;
+  margin-top: 0;
+  grid-template-columns: repeat(4, 1fr); /* 4개의 열로 카드 배치 */
+  gap: 20px; /* 카드 사이 간격을 20px로 설정 */
+  justify-content: center; /* 그리드 전체를 중앙으로 배치 */
+  padding-top: 20px; /* 리스트 내부 패딩 */
+  width: 100%; /* 리스트가 전체 페이지 너비를 차지하도록 설정 */
+  max-width: 1200px; /* 최대 너비를 설정 */
+  margin: 0 auto; /* 중앙 정렬 */
+}
+
+.group-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  width: 100%; /* 카드가 그리드 셀에 맞게 크기를 조정 */
+  max-width: 335px; /* 카드의 최대 너비 설정 */
+  height: auto; /* 내용에 따라 높이 자동 조정 */
+}
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; /* 게시글과 더보기 버튼 사이 간격 조정 */
+  width: 1560px; /* 더보기 박스 너비 */
+  height: 60px; /* 더보기 박스 높이 */
+  border-radius: 6px;
+  border: 1px solid var(--black-black_282828, #282828);
+  background: var(--gray-gray_FAFAFA, #FAFAFA);
+  margin: 0 auto 40px auto; /* 더보기 버튼 아래 간격도 추가 */
+}
+
+.load-more button {
+  padding: 10px 20px;
+  background-color: transparent; /* 배경색 없음 */
+  color: var(--black-black_282828, #282828); /* 텍스트 색상 */
+  border: none;
+  cursor: pointer;
+  
+  text-align: center; /* 텍스트 중앙 정렬 */
+  font-family: "Spoqa Han Sans Neo", sans-serif; /* 글꼴 설정 */
+  font-size: 14px; /* 글자 크기 */
+  font-style: normal; /* 글자 스타일 */
+  font-weight: 700; /* 글자 두께 */
+  line-height: normal; /* 줄 간격 */
+  letter-spacing: -0.42px; /* 글자 간격 조정 */
+}
+
+.load-more button:hover {
+  background-color: var(--gray-gray_EFEFEF, #EFEFEF); /* 호버 시 배경색 변경 */
+  border-radius: 6px;
+}

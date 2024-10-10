@@ -1,20 +1,26 @@
+
+
 img {
   width: 100%;
   height: auto;
 }
 
 body {
-  margin: 0;
-  font-family: "Spoqa Han Sans Neo", "sans-serif";
-  overflow-x: hidden;
+  margin: 0 !important; /* 모든 마진 강제 제거 */
+  padding: 0 !important;
+  display: flex;
+  justify-content: center; /* 전체 페이지를 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  flex-direction: column; /* 플렉스 박스가 세로 방향으로 */
+  min-height: 100vh; /* 페이지가 화면 전체 높이를 차지하도록 */
+}
 
-  min-width: 100vw;
-  min-height: 100vh;
-  background-color: #fafafa;
 
-  @supports (-webkit-touch-callout: none) {
-    min-height: -webkit-fill-available;
-  }
+/* 페이지 전체를 1920px로 고정하고 중앙 정렬 */
+.app {
+  width: 1920px; /* 전체 페이지 너비를 1920px로 고정 */
+  margin: 0 auto; /* 중앙 정렬 */
+  background-color: #FAFAFA; /* 페이지 배경색 */
 }
 
 a:link,

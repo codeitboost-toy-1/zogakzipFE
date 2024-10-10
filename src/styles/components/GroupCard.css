@@ -1,0 +1,128 @@
+.group-card {
+  width: 375px;
+  height: 561px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--gray-gray_DDDDDD, #DDD);
+  background: var(--gray-gray_FAFAFA, #FAFAFA);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.group-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* 마우스 오버 시 그림자 */
+}
+
+.group-card-image {
+  width: 335px;
+  height: 335px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+
+.group-card-content {
+  padding: 15px;
+}
+
+.group-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.group-d-day {
+  color: var(--black-black_282828, #282828);
+  font-family: "Spoqa Han Sans Neo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.42px;
+}
+
+.group-private {
+  color: var(--gray-gray_8D8D8D, #8D8D8D);
+  font-family: "Spoqa Han Sans Neo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.42px;
+}
+
+.group-card-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.2; /* 제목의 줄 간격을 좁게 */
+}
+
+.group-card-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.4; /* 내용의 줄 간격 */
+}
+
+.group-card-stats {
+  color: var(--gray-gray_B8B8B8, #B8B8B8);
+  font-family: "Spoqa Han Sans Neo";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+
+
+.group-card-stat {
+  display: flex;
+  align-items: center;
+}
+
+.group-card-stat span {
+  margin-right: 10px; /* 항목 간 간격을 줍니다 */
+}
+
+.group-card-empathy {
+  color: var(--gray-gray_B8B8B8, #B8B8B8);
+  font-family: "Spoqa Han Sans Neo";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.group-card-empathy span {
+  margin-left: 10px; /* 그룹 공감 왼쪽에 간격 */
+}
+
+
+.group-card-views {
+  color: #666;
+}
+.group-card-empathy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #666;
+}
+
+.group-empathy {
+  display: flex;
+  align-items: center; /* 아이콘과 숫자가 같은 줄에 있도록 수직 정렬 */
+}
+
+.group-empathy img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px; /* 아이콘과 숫자 간 간격 */
+}
