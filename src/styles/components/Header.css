@@ -1,31 +1,32 @@
 .header {
-    width: 1920px; /* 헤더를 1920px로 설정 */
+    width: 1920px; 
     height: 100px;
     margin-bottom: 0;
-    padding: 0; /* 패딩 제거 */
+    padding: 0; 
     display: flex;
-    justify-content: center; /* 중앙 정렬 */
-    align-items: center; /* 수직 정렬 */
+    justify-content: center;
+    align-items: center; 
     background-color: #FAFAFA; 
-    position: fixed; /* 고정 위치 */
-    top: 0; /* 페이지 맨 위 */
-    left: 50%; /* 중앙 정렬을 위해 왼쪽 50% */
-    transform: translateX(-50%); /* 중앙 정렬을 위해 왼쪽에서 50% 이동 */
-    z-index: 1000; /* 다른 요소들 위에 표시 */
+    position: fixed; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 1000; 
 }
 
 .logo {
-    position: absolute; /* 절대 위치로 설정 */
-    left: 50%; /* 헤더의 50% 지점 */
-    transform: translateX(-50%); /* 중앙 정렬을 위해 왼쪽에서 50% 이동 */
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
 }
 
 .logo img {
-    width: 137px; /* 로고 너비 설정 */
-    height: 48px; /* 로고 높이 설정 */
+    width: 137px; 
+    height: 48px; 
 }
 .create-group-button {
     position: absolute;
     left: 1540px; /* 왼쪽에서 1540px */
     right: 180px; /* 오른쪽에서 180px */
   }
+
