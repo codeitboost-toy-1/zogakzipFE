@@ -1,5 +1,5 @@
 import React from "react";
-import * as G from "../styles/components/ButtonMcss.js";
+import * as G from "../styles/components/ButtonMcss.jsx";
 
 function ButtonL({ category }) {
   const getButtonText = () => {
