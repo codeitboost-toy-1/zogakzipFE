@@ -4,17 +4,17 @@
   flex-shrink: 0;
   border-radius: 6px;
   background-color: var(--black-black_282828, #282828);
-  color: #fff; /* 텍스트 색상 */
+  color: #fff; 
   border: none;
   cursor: pointer;
-  font-family: "Spoqa Han Sans Neo", sans-serif; /* 폰트 패밀리 */
-  font-size: 14px; /* 폰트 크기 */
-  font-weight: 700; /* 굵은 폰트 */
+  font-family: "Spoqa Han Sans Neo", sans-serif; 
+  font-size: 14px;
+  font-weight: 700;
   line-height: normal;
-  letter-spacing: -0.42px; /* 자간 조정 */
+  letter-spacing: -0.42px;
   text-align: center;
 }
 
 .create-group-button:hover {
-  background-color: var(--black-black_282828, #282828); /* 호버 시 색상 변화 없음 */
+  background-color: var(--black-black_282828, #282828); 
 }
