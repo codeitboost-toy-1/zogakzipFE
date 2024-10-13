@@ -1,0 +1,83 @@
+.create-group-page {
+  background: #FAFAFA;
+  width: 100%; /* 화면 전체 너비에 맞추기 */
+  max-width: 1920px;
+  height: 1080px;
+  margin: 70px auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-group-title, 
+.form-group label, 
+input[type="text"], 
+input[type="password"], 
+textarea, 
+.toggle-container span {
+  font-family: 'Spoqa Han Sans Neo', sans-serif; /* 동일한 글씨체로 통일 */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+}
+
+.create-group-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+
+.group-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 400px; /* 입력 필드 고정 크기 설정 */
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  padding: 5px;
+  width: 100%;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  border-radius: 6px 0px 0px 0px;
+  border: 1px solid #DDDDDD;
+  resize: none;
+  opacity: 1;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.size-l-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}

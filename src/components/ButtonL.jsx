@@ -1,5 +1,5 @@
 import React from "react";
-import * as G from "../styles/components/ButtonLcss.js";
+import * as G from "../styles/components/ButtonLcss.jsx";
 
 function SizeLBtn({ text, onClick }) {
   return (
